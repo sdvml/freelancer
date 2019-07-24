@@ -1,8 +1,8 @@
 # Site settings
 email: info@sdv.ml
 # url: https://sdv.ml
-url: https://sdvml.github.io/freelancer
-baseurl: https://sdvml.github.io/freelancer
+url: https://sdvml.github.io
+baseurl: freelancer
 
 description: "A collection of open source frameworks for synthetic data generation."
 keywords: "synthetic data, machine learning, deep learning, generative adversarial networks"
@@ -39,14 +39,21 @@ footer:
   social: Resources
   credits: Credits
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: http://twitter.com/sdv_ml
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/sdv
-  - title: github
+resources:
+  github: http://github.com/HDI-Project/SDV
+  book: https://hdi-project.github.io/SDV/
+  stack-overflow: http://stackoverflow.com/questions/tagged/sdv
+
+resources:
+  - title: GitHub
+    icon: github
     url: http://github.com/HDI-Project/SDV
+  - title: Documentation
+    icon: book
+    url: https://hdi-project.github.io/SDV/
+  - title: Stack Overflow
+    icon: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/sdv
 
 # Postal address (add as many lines as necessary)
 # address:

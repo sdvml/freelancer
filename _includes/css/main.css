@@ -211,7 +211,7 @@ section h2 {
     font-size: 3em;
 }
 
-section.success {
+section.about {
     color: #fff;
     background: #{{ site.color.secondary-dark }};
 }
@@ -509,8 +509,19 @@ footer .footer-below {
     transform: rotate(90deg);
 }
 
-.navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }} !important;
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus {
+    background-color: transparent; /*#{{ site.color.secondary }};*/
+    color: #{{ site.color.yellow }};
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: #{{ site.color.yellow }};
+}
+
+.navbar-default .navbar-nav>li>a:not(hover):focus {
+    color: #fff;
 }
 
 /* Fix modal mouse wheel issues */
