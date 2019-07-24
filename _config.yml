@@ -1,7 +1,8 @@
 # Site settings
 email: info@sdv.ml
-url: https://sdv.ml
-# description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+# url: https://sdv.ml
+url: https://sdvml.github.io/freelancer
+
 description: "A collection of open source frameworks for synthetic data generation."
 keywords: "synthetic data, machine learning, deep learning, generative adversarial networks"
 title: "Synthetic Data Vault"
