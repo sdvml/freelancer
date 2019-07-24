@@ -2,6 +2,7 @@
 email: info@sdv.ml
 # url: https://sdv.ml
 url: https://sdvml.github.io/freelancer
+baseurl: https://sdvml.github.io/freelancer
 
 description: "A collection of open source frameworks for synthetic data generation."
 keywords: "synthetic data, machine learning, deep learning, generative adversarial networks"
